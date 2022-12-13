@@ -1,0 +1,21 @@
+.Filter {
+    padding: $content-padding;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    &__form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+        align-items: baseline;
+
+        &-sm {
+            display: flex;
+            width: 20%;
+            justify-content: space-around;
+            margin-left: auto;
+            // border: 1px solid red;
+        }
+    }
+};

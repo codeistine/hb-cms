@@ -1,0 +1,11 @@
+.Main {
+    width: calc(100% - #{$sidenav-width});
+    min-height: calc(100vh - #{$menu-height});
+    margin-left: $sidenav-width;
+    background-color: $body-color;
+
+    @media(max-width: 1000px) {
+        width: 100%;
+        margin-left: 0;
+    }
+}

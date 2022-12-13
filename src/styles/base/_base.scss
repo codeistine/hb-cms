@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 70%;
+
+    @media (max-width: 800px) {
+        font-size: 65%;
+    }
+    @media (max-width: 750px) {
+        font-size: 57%;
+    }
+}
+
+body {
+     box-sizing: border-box;
+     font-family: "Public Sans",sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+

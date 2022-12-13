@@ -1,0 +1,15 @@
+@import './styles/abstracts/_variables.scss';
+@import './styles/abstracts/_mixins.scss';
+@import './styles/abstracts/_typography.scss';
+@import './styles/abstracts/_utilities.scss';
+@import './styles/base/_base.scss';
+@import './styles/base/_main.scss';
+
+@import './styles/pages/_login.scss';
+@import './styles/pages/_transactions.scss';
+@import './styles/pages/tupad.scss';
+
+@import './styles/components/_sidenav.scss';
+@import './styles/components/_menu.scss';
+@import './styles/components/_filter.scss';
+@import './styles/components/_imagepreview.scss';

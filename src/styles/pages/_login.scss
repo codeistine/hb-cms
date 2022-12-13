@@ -1,0 +1,107 @@
+.Login {
+    height: 100vh;
+    position: relative;
+
+    &__form-container {
+       width: 50%;
+       height: 50%;
+       border-radius: 5px;
+       display: flex;
+
+
+       @include absoluteCenter();
+
+       @media (max-width: 1550px) {
+        width: 60%;
+   }
+
+       @media (max-width: 1440px) {
+            width: 65%;
+       }
+
+       @media (max-width: 1200px) {
+        width: 70%;
+    }
+
+       @media (max-width: 1024px) {
+           width: 70%;
+       }
+
+       @media (max-width: 900px) {
+       width: 40%;
+      }
+
+       @media (max-width: 700px) {
+       width: 60%;
+      }
+
+      @media (max-width: 500px) {
+        width: 80%;
+       }
+
+       @media (max-width: 330px) {
+        width: 100%;
+        padding: 0 1.5rem;
+        min-width: 26.2rem;
+       }
+       
+    }
+
+    &__illustration {
+        flex: 2 0 6.3rem;
+        background-image: url('../../assets/hanepbuhay/logo.png');
+        background-position: center;
+        background-size: 90%;
+        background-repeat: no-repeat;
+
+        @media (max-width: 900px) {
+            display: none;
+        }
+    }
+
+
+    &__form--container {
+        border-radius: .6rem;
+        flex: 1 1 1.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 6rem 1rem 1rem;
+
+        @media (max-width: 1200px) {
+           padding-top: 11rem;
+        }
+
+        @media (max-width: 900px) {
+          margin-top: -10rem;
+            justify-content: center;
+        }
+    }
+
+    &__form--logo {
+        width: 100%;
+        margin-top: -13rem;
+        border-radius: 15px;
+
+        @media (max-width: 1024px) {
+           margin-bottom: 1.6rem;
+         }
+    }
+
+    &__form--heading {
+        font-size: 2rem;
+        margin-top: -1rem;
+        margin-bottom: 2.5rem;
+        text-transform: uppercase;
+         @media (max-width: 900px) {
+            padding-top: 2rem;
+           }
+
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        font-size: 100rem;
+    }
+}

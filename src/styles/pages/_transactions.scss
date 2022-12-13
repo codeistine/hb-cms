@@ -1,0 +1,93 @@
+.Transactions {
+  width: 100%;
+  margin: auto;
+
+  &__link {
+    text-decoration: none;
+
+    &:active,
+    &:visited {
+      color: $black;
+    }
+  }
+
+  &__head {
+    background: $gray;
+
+    .MuiTableCell-head {
+      text-align: center;
+    }
+  }
+
+  &__body {
+    .MuiTableCell-root {
+      font-size: 1.1rem;
+    }
+    .MuiTableCell-body {
+      text-align: left;
+      padding: 1.3rem 1rem;
+    }
+
+    .view-form {
+      background: $darkblue;
+      color: $white;
+      &:hover {
+        background: $darkblue;
+        color: $white;
+      }
+    }
+
+    .actionButton {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .approved {
+      background: $dark-green;
+      color: $white;
+      margin-top: 0.5rem;
+      &:hover {
+        background: $dark-green;
+        color: $white;
+      }
+    }
+
+    .disapproved {
+      background-color: $red;
+      color: $white;
+      margin-top: 0.5rem;
+      &:hover {
+        background-color: $red;
+        color: $white;
+      }
+    }
+  }
+}
+
+.viewModal {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    max-width: 100%;
+  }
+  h3 {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: $lightBlue;
+  }
+  label {
+    margin-top: 1rem;
+  }
+  .dFlex {
+    display: flex;
+  }
+  .EnlargedImage__Image {
+    width: 100% !important;
+  }
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 100% !important;
+}

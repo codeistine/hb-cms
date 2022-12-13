@@ -1,0 +1,16 @@
+.Menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 2.5rem 2rem;
+    background-color: $body-color;
+    --logo {
+        background-color: white;
+    }
+
+    @media(max-width: 1000px) {
+        margin-left: 0;
+        width: 100%;
+    }
+};
