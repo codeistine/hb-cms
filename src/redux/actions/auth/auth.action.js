@@ -25,7 +25,7 @@ export const hanepbuhayAuthFailed = (err) => {
 export const onHanepbuhayAuth = (credentials) => {
     let axiosConfig = {
         headers: {
-            "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+            "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
             "Content-Type": "application/json",
         }
       };

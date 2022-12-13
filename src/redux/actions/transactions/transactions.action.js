@@ -31,7 +31,7 @@ export const onFetchTransactions = (page) => {
             const transactions = await axios.get(`${config.transactions}?perPage=25&page=${page}&sort=-created_at`, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });
@@ -71,7 +71,7 @@ export const onFetchTransaction = (id) => {
             const transaction = await axios.get(`${config.transactions}/${id}`, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });
@@ -150,7 +150,7 @@ export const onApproveId = (transactionId, reqBody) => {
             const approveId = await axios.post(`${config.transactions}/approve/${transactionId}`, reqBody, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });
@@ -193,7 +193,7 @@ export const onRejectId = (transactionId, reqBody) => {
             const rejectId = await axios.post(`${config.transactions}/reject/${transactionId}`, reqBody, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });
@@ -237,7 +237,7 @@ export const onFilterTransactions = (params) => {
             const filtered = await axios.get(`${config.transactions}?perPage=500&${params}`, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             })
@@ -328,7 +328,7 @@ export const onFetchTransactionsByFbId = (fbid) => {
             const transactions = await axios.get(`${config.transactions}?user=${fbid}&perPage=500`, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });

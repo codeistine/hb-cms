@@ -29,7 +29,7 @@ export const onFetchTupad = (id) => {
             const tupad = await axios.get(`${config.tupad}/${id}`, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });
@@ -71,7 +71,7 @@ export const onSaveTupad = (id, reqBody) => {
             const saveTupad = await axios.put(`${config.tupad}/${id}`, reqBody, {
                 mode: "cors",
                 headers: {
-                    "Authorization": "x3LtGQ3*5X35%3xzf2-alVIbDXo(goR$",
+                    "Authorization": "o1Jg74*2f0mI9-ZFMGkILQX$LEqMp%Vj",
                     "Content-Type": "application/json",
                 }
             });

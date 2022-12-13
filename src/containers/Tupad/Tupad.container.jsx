@@ -37,8 +37,6 @@ const Tupad = (id) => {
     const [openSuccess, setOpenSuccess] = useState(false);
     const dispatch = useDispatch();
 
-    // console.log('tupad', id)
-
     //#region SNACKBAR CLOSE
     const [sucessMsg, setSucessMsg] = useState(null);
 

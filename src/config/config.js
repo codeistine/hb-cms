@@ -22,5 +22,5 @@ const configFunction = (which) => {
     }
   };
 
-  export const config = configFunction('prod');
+  export const config = configFunction('stg');
 
